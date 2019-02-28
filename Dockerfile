@@ -25,7 +25,7 @@ MAINTAINER Jacob Roth <jzroth@uw.edu>
 
 # Matlab dependencies
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    libpng-dev libfreetype6-dev \
+    libpng-dev libfreetype6-dev libasound2-dev \
     libblas-dev liblapack-dev gfortran build-essential xorg
 
 ## run the container like a matlab executable 
